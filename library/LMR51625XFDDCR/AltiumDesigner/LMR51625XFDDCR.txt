@@ -1,0 +1,58 @@
+# Created by Ultra Librarian 8.3.372 Copyright � 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "DDC0006A-MFG")
+Pad (Name "1") (Location -53.1493, 37.4016) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -53.1493, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location -53.1493, -37.4016) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location 53.1493, -37.4016) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location 53.1493, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location 53.1493, 37.4016) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30709839, 23.62199974) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 5.90549994) (Start -34.4488, -60.0394) (End -34.4488, 60.0394) (Layer Mechanical13) 
+Line (Width 5.90549994) (Start -34.4488, -60.0394) (End 34.4488, -60.0394) (Layer Mechanical13) 
+Line (Width 5.90549994) (Start 34.4488, -60.0394) (End 34.4488, 60.0394) (Layer Mechanical13) 
+Line (Width 5.90549994) (Start -34.4488, 60.0394) (End 34.4488, 60.0394) (Layer Mechanical13) 
+Line (Width 5.90549994) (Start -16.732, -60.0394) (End 16.732, -60.0394) (Layer TopOverlay) 
+Line (Width 5.90549994) (Start -16.732, 60.0394) (End 16.732, 60.0394) (Layer TopOverlay) 
+Arc (Width 9.84249973) (Radius 4.92129993) (Location -96.4567, 37.4016) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Text (Location -96, 89) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "Designator8")
+Text (Location -75, -25) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "RefDes")
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "LMR51625XFDDCR") (PartCount 1) (DesPrefix "U?")
+Pin (Location 1000, -400) (Rotation 0) (PinType Passive) (Length 200) (Width 0) (Designator Visible "1") (Name Visible "FB") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, -200) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "2") (Name Visible "EN") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 200, 0) (Rotation 180) (PinType Power) (Length 200) (Width 0) (Designator Visible "3") (Name Visible "VIN") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 1000, -600) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "4") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 1000, -200) (Rotation 0) (PinType Passive) (Length 200) (Width 0) (Designator Visible "5") (Name Visible "SW") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 1000, 0) (Rotation 0) (PinType Passive) (Length 200) (Width 0) (Designator Visible "6") (Name Visible "CB") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Rectangle (Width 5) (Start 200, -700) (End 1000, 200) (Part 1)
+Parameter (Name "TYPE") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "TYPE") (Part 1)
+Parameter (Name "RefDes") (Location 0, 100) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2025 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Manufacturer_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Texas Instruments") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "LMR51625XFDDCR") (Part 1)
+Parameter (Name "Description") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "SIMPLE SWITCHER® synchronous buck converter with 4.3V-to-60V, 2.5A and low quiescent current 6-SOT-23-THIN -40 to 150") (Part 1)
+Parameter (Name "Datasheet") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "https://www.ti.com/lit/gpn/lmr51625") (Part 1)
+Description (Value "SIMPLE SWITCHER® synchronous buck converter with 4.3V-to-60V, 2.5A and low quiescent current 6-SOT-23-THIN -40 to 150") (Part 1)
+Comment (Value "LMR51625XFDDCR") (Part 1)
+Footprint (Name "DDC0006A-MFG")
+EndComponent
+EndComponents
